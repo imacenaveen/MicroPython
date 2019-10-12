@@ -20,6 +20,6 @@ for sysdevpath in $(find /sys/bus/usb/devices/usb*/ -name dev); do
 done
 
 
-ip - 10.3.125.107
+ip - 10.3.125.107 - password-1990
 # TO Launch a file in micropy terminal
 exec(open('main.py').read())
