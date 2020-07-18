@@ -21,8 +21,13 @@ done
 
 # Testing git branch
 # drone fix
+When changing router - Ip,DNS,DHCp all changes, chk ipconfig and compare
+WIFI password - micropythoN
 old ip - 10.3.125.107 - password-1990
 new Ip - '192.168.43.125'
+
+
+
 # TO Launch a file in micropy terminal
 exec(open('main.py').read())
 os.remove('file.py')
